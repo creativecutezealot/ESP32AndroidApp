@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ESP32ConnectionApp</string>
+    <string name="operate">click to operate</string>
+    <string name="connect">Connect</string>
+    <string name="read_rssi">Read RSSI</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="tips_turn_on_gps">Please turn on GPS before scanning</string>
+    <string name="tips_go_setting_to_grant_location">Please go to settings to grant location permission manually</string>
+    <string name="device_connection_state_prefix">Connection State:&#160;&#160;</string>
+    <string name="device_name_prefix">Name:&#160;&#160;</string>
+    <string name="device_address_prefix">Address:&#160;&#160;</string>
+
+    <string name="connection_state_connecting">Connecting</string>
+    <string name="connection_state_connected">Connected</string>
+    <string name="connection_state_disconnected">Disconnected</string>
+    <string name="tips_connection_disconnected">connection has disconnected</string>
+
+    <string name="tips_connect_timeout">connect timeout</string>
+    <string name="tips_connect_fail">connect fail</string>
+</resources>

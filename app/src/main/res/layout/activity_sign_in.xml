@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Activities.SignInActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="26dp"
+            android:layout_centerVertical="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/under_line_background">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_userprofile"
+                    android:layout_gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/txtUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/emputy_whitebutton"
+                    android:hint="User Name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black_color" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/under_line_background">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_password"
+                    android:layout_gravity="center_vertical"/>
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Password"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/emputy_whitebutton"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/btnSignin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:text="SignIn"
+                android:textColor="@color/white_color"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="@drawable/round_button"
+                android:textSize="@dimen/textSize"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/btnCreate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Create Account"-->
+<!--                android:textColor="@color/black_color"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="@dimen/textSize"/>-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        android:textColor="@color/black_color"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@drawable/white_roundbutton"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="-5dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
